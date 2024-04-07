@@ -23,10 +23,10 @@ Wish me luck! 🤞
 ### 1.1 Check for available python versions
 
 * I have multiple python versions available in anaconda, but lets don't use it for this experiment.
-* Check the default Global python version: `python --version`. 
-        * find path to it:
-        * run `python -c "import os, sys; print(os.path.dirname(sys.executable))"`, or 
-        * run `python -m identify_python_path` while in this repo's root folder 
+* Check the default Global python version: `python --version`.    
+    * find path to it:
+    * run `python -c "import os, sys; print(os.path.dirname(sys.executable))"`, or 
+    * run `python -m identify_python_path` while in this repo's root folder 
 * How do I find out about other Pythons versions available in my machine? 
     * typically for windows it is saved in `C:\Users\<username>\AppData\Local\Programs\Python\Python3X`
     * or run `py --list-paths`
