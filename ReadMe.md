@@ -6,8 +6,6 @@ The post is about the always interesting and spicy topic of `python packaging pa
 
 The article recommended in the post is hilarious 🤣 and definately worth a read. I am saving it here so I can read it again. (link: [Why not tell people to "simply" use pyenv, poetry or anaconda](https://www.bitecode.dev/p/why-not-tell-people-to-simply-use))
 
-The comments to the post are very interesting and spicy! (It is about Python packaging so what else would you expect 😜)
-
 Anyway, back to the tool recommended in the article, which is `venv`. 😎 I only used `vevn` very briefly at the beginning of my python journey, then moved on to tools like `pipenv` and `anaconda` which the article critisized about. In the name of fun and exploration, let me do `venv` again and document my learning on the way. I will follow the instruction from the [official `venv` doc](https://docs.python.org/3/library/venv.html) and do my best not to "stackoverflow my way out of suffering" (To be honest, I can't remember how many times stackoverflow saved my life ❤️)
 
 I will try to accomplish three things. 
