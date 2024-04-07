@@ -1,6 +1,6 @@
 # Fun/Pain with Python Packaging
 
-It all started a Saturday morning, when I came cross [this LinkedIn post](https://www.linkedin.com/posts/maria-vechtomova_why-not-tell-people-to-simply-use-pyenv-activity-7182014679395766272-Rl9D?utm_source=share&utm_medium=member_desktop) over coffee ☕ 
+It all started a Saturday morning, when I came cross [this LinkedIn post](https://www.linkedin.com/posts/maria-vechtomova_why-not-tell-people-to-simply-use-pyenv-activity-7182014679395766272-Rl9D) over coffee ☕ 
 
 The post is about the always interesting and spicy topic of `python packaging pain` 🤪 
 
@@ -25,17 +25,18 @@ Wish me luck! 🤞
 ### 1.1 Check for available python versions
 
 * I have multiple python versions available in anaconda, but lets don't use it for this experiment.
-* Check the default Global python version: under C:\> `python --version`. 
-* How do I find out about other Pythons versions available in my global environment? 
-    * typically for windows it is saved in `C:\Users\<username>\AppData\Local\Programs\Python\Python3X`
-    * If yours is not there for whatever reason
+* Check the default Global python version: `python --version`. 
+        * find path to it:
         * run `python -c "import os, sys; print(os.path.dirname(sys.executable))"`, or 
         * run `python -m identify_python_path` while in this repo's root folder 
+* How do I find out about other Pythons versions available in my machine? 
+    * typically for windows it is saved in `C:\Users\<username>\AppData\Local\Programs\Python\Python3X`
+    * or run `py --list-paths`
 
 ### 1.2 Create a venv using a particular python version
 
 * Check whether the desired python version is available. 
-* If not, install using the official installer at `python.org`, for examples [windows installer available here](https://www.python.org/downloads/windows/)
+* If not, install using the official installer at `python.org`, for example [windows installer available here](https://www.python.org/downloads/windows/)
 * After installation, run the command below (for windows)
 `C:\Users\<username>\AppData\Local\Programs\Python\Python3X\python -m venv PATH-to-REPO\.venv` 
 * This is where I used to stumble before. 
