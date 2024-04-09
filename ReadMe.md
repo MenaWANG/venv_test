@@ -37,10 +37,12 @@ Wish me luck! 🤞
 * If not, install using the official installer at `python.org`, for example [windows installer available here](https://www.python.org/downloads/windows/)
 * After installation, run the command below (for windows)
 `C:\Users\<username>\AppData\Local\Programs\Python\Python3X\python -m venv PATH-to-REPO\.venv` 
+    * one could also use `py -3.x -m venv` to specify python version but I opted to specify where exactly this python sits, since `py --lists-paths` give me interesting results due to my installation history. 🙈  
 * This is where I used to stumble before. 
     * If I don't specify the path to the particular python version, it would always just used the default. 
     * If I revise the environment path variable to prioritize this desired python version, it would then become the new default. 
     * In contrast, the solution above gives us the flexibility to create a `.venv` with whichever python version we see fit for each particular project. 
+
 
 ## 2. Activate and use the `.venv`
 
