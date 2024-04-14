@@ -43,8 +43,10 @@ Wish me luck! 🤞
     * If I revise the environment path variable to prioritize this desired python version, it would then become the new default. 
     * In contrast, the solution above gives us the flexibility to create a `.venv` with whichever python version we see fit for each particular project. 
 
-
 ## 2. Activate and use the `.venv`
-
+* Following the instruction from [official `venv` doc](https://docs.python.org/3/library/venv.html), you can activate the environment using `.venv/Scripts/activate` (windows)
+    * In windows you could have this error: `.venv/Scripts/activate : File C:\Users\ningw\Desktop\Repo\test_temp\.venv\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on this system. `
+    * In this case, run `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+* `pip install` any pakcages needed
 
 ## 3. Share the `.venv`
