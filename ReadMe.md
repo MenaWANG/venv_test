@@ -10,8 +10,8 @@ Anyway, back to the tool recommended in the article, which is `venv`. 😎 I onl
 
 I will try to accomplish three things. 
 
-1. ~~Create the `.venv` using a particular python version~~
-2. ~~Active and use the `.venv`~~
+1. Create the `.venv` using a particular python version ✅
+2. Active and use the `.venv` ✅
 3. Share the `.venv` so it is reproducible
 
 Wish me luck! 🤞
@@ -45,8 +45,8 @@ Wish me luck! 🤞
 
 ## 2. Activate and use the `.venv`
 * Following the instruction from [official `venv` doc](https://docs.python.org/3/library/venv.html), you can activate the environment using `.venv/Scripts/activate` (windows)
-    * In windows you could have this error: `.venv/Scripts/activate : File C:\Users\ningw\Desktop\Repo\test_temp\.venv\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on this system. `
+    * In windows you could have this error: `.venv/Scripts/activate : File path-to-project\.venv\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on this system. `
     * In this case, run `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
-* `python -m pip install` any pakcages needed (Why not `pip install` directly? [here is a discussion](https://www.bitecode.dev/p/relieving-your-python-packaging-pain))
+* `python -m pip install` any pakcages needed (Why not `pip install` directly? 🧐 [here is a discussion](https://www.bitecode.dev/p/relieving-your-python-packaging-pain))
 
 ## 3. Share the `.venv`
