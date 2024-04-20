@@ -8,13 +8,13 @@ The article recommended in the post is hilarious 🤣 and definately worth a rea
 
 Anyway, back to the tool recommended in the article, which is `venv`. 😎 I only used `vevn` very briefly at the beginning of my python journey, then moved on to tools like `pipenv` and `anaconda` which the article critisized about. In the name of fun and exploration, let me do `venv` again and document my learning on the way. I will follow the instruction from the [official `venv` doc](https://docs.python.org/3/library/venv.html) and do my best not to "stackoverflow my way out of suffering" (To be honest, I can't remember how many times stackoverflow saved my life ❤️)
 
-I will try to accomplish three things. 
+This repo seeks to accomplish three things. 
 
 1. Create the `.venv` using a particular python version ✅
 2. Active and use the `.venv` ✅
-3. Share the `.venv` so it is reproducible
+3. Share the virtual environment so others can reproduce it ✅
 
-Wish me luck! 🤞
+Pls see below the detailed tested steps (including some troubleshooting 🔧 tips). Feel free to try it yourself and let me know how you go. 🤩 Good luck! 🤞
 
 # Steps
 
