@@ -50,3 +50,15 @@ Wish me luck! 🤞
 * `python -m pip install` any pakcages needed (Why not `pip install` directly? 🧐 [here is a discussion](https://www.bitecode.dev/p/relieving-your-python-packaging-pain))
 
 ## 3. Share the `.venv`
+* To export the environment
+    * `Freeze` the environemnt for the project using `python -m pip freeze > requirements_py310.txt`
+    * One of the important reasons that I switched from `venv` to `pipenv` was because python version was natually specified in `pipenv`'s lockfile `Pipfile.lock`. But this is not the case with `requimrenets.txt`. 
+    * Fortunately as shown above, it is pretty straightforward to utilize specific python versions for `venv` implementations too, one just need to be mindful and specify it while creating the environment. 
+    * Therefore, I personaly prefer to specify python version at the title of the requirements like `requirements_py3xx`, which can serve as a reminder to myself and everyone who wants to replicate the environment re: which python version is needed for this `venv`.
+* To replicate the environment
+    * Create the `venv` with the specific version (see step 1 above)
+        * if exist already, run `Remove-Item -Path ".venv" -Recurse -Force` in powershell 
+    * Activate the `venv` (see step 2 above)
+    * then `python -m pip install -r requirements_py310.txt` 
+
+
